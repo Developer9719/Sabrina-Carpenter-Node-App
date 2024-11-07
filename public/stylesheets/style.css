@@ -11,6 +11,12 @@ body {
   background-size: cover;
   background-attachment: fixed;
 }
+
+.toc .contents {
+  margin-top: 15%;
+  margin-left: 15%;
+  color: rgba(255, 255, 255, 255);
+}
 /* Home */
 
 /* Music */
