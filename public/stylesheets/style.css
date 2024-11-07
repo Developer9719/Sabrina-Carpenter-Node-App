@@ -12,11 +12,25 @@ body {
   background-attachment: fixed;
 }
 
-.toc .contents {
+.TOC .contents {
   margin-top: 15%;
   margin-left: 15%;
   color: rgba(255, 255, 255, 255);
 }
+
+.TOC .contentList {
+  margin-top: 5%;
+  color: rgba(255, 255, 255, 255);
+  width: 25vw;  
+  border-style: dotted;
+}
+
+.TOC .li {
+  text-decoration-line: none;
+  color: rgba(255, 255, 255, 255);
+  list-style: none;
+}
+
 /* Home */
 
 /* Music */
