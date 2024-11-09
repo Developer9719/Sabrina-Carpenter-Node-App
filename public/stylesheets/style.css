@@ -8,7 +8,7 @@ html {
 body {
   background-image: url(../images/TOCWallpaper.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 105%;
   background-attachment: fixed;
 }
 
@@ -41,6 +41,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-size: x-large;
 }
 
 .right-text {
