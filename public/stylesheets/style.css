@@ -18,17 +18,38 @@ body {
   color: rgba(255, 255, 255, 255);
 }
 
-.TOC .contentList {
+.TOC nav {
   margin-top: 5%;
   color: rgba(255, 255, 255, 255);
   width: 25vw;  
   border-style: dotted;
 }
 
-.TOC .li {
-  text-decoration-line: none;
+.TOC li {
+  list-style: none;
   color: rgba(255, 255, 255, 255);
   list-style: none;
+}
+
+.TOC li a {
+  color: rgba(255, 255, 255, 255);
+  text-decoration-line: none;
+}
+
+/* Dynamically display dots between each page in the TOC */
+.text-divider {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.right-text {
+  margin-right: 2vw;
+}
+
+.dots {
+  flex-grow: 1; /* Takes up available space */
+  text-align: center;
 }
 
 /* Home */
