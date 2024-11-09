@@ -53,6 +53,12 @@ body {
   text-align: center;
 }
 
+.closeToHome {
+  text-decoration-line: none;
+  color: rgba(255, 255, 255, 255);
+  margin-left: 5vw;
+}
+
 /* Home */
 .Home {
   background-image: none;
