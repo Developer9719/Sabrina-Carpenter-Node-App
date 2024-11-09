@@ -4,12 +4,27 @@ html {
   padding: 0;
 }
 
+.TOCButton {
+  background-color: rgba(77, 70, 66, 1);
+  width: 190px;
+}
+
+.TOCButton a {
+  padding: 5px 10px;
+  color: white;
+  text-decoration-line: none;
+  margin-right: auto;
+}
+
 /* TOC */
 body {
   background-image: url(../images/TOCWallpaper.png);
   background-repeat: no-repeat;
   background-size: 105%;
   background-attachment: fixed;
+
+  margin-left: 50px;
+  margin-top: 50px;
 }
 
 .TOC .contents {
