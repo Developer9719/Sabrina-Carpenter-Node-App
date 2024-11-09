@@ -61,30 +61,42 @@ body {
 
 /* Home */
 .Home {
-  background-image: none;
+  background-image: url(../images/backgroundForAllPages.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* Music */
 .Music {
-  background-image: none;
+  background-image: url(../images/backgroundForAllPages.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* Video */
 .Video {
-  background-image: none;
+  background-image: url(../images/backgroundForAllPages.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* Tour */
 .Tour {
-  background-image: none;
+  background-image: url(../images/backgroundForAllPages.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* Shop */
 .Shop {
-  background-image: none;
+  background-image: url(../images/backgroundForAllPages.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* Sign Up */
 .SignUp {
-  background-image: none;
+  background-image: url(../images/backgroundForAllPages.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
