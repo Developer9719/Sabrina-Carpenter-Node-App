@@ -34,6 +34,16 @@ html {
   width: 725px;
 }
 
+.mainContent h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+.mainContent p {
+  font-size: 30px;
+  text-align: center;
+}
+
 /* TOC */
 body {
   background-image: url(../images/TOCWallpaper.png);
@@ -100,14 +110,13 @@ body {
   background-attachment: scroll;
 }
 
-.Home .mainContent h1 {
-  font-size: 50px;
-  text-align: center;
-}
-
 .Home .mainContent .column {
   float: left;
   width: 50%;
+}
+
+.Home .mainContent img {
+  width: 75%;
 }
 
 /* Clear floats after the columns */
@@ -117,20 +126,16 @@ body {
   clear: both;
 }
 
-.Home .mainContent img {
-  width: 75%;
-}
-
-.Home .mainContent p {
-  font-size: 30px;
-  text-align: center;
-}
-
 /* Music */
 .Music {
   background-image: url(../images/backgroundForAllPages.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: scroll;
+}
+
+.Music .mainContent img {
+  width: 40%;
 }
 
 /* Video */
@@ -138,6 +143,11 @@ body {
   background-image: url(../images/backgroundForAllPages.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: scroll;
+}
+
+.Video .mainContent img {
+  width: 40%;
 }
 
 /* Tour */
@@ -145,6 +155,11 @@ body {
   background-image: url(../images/backgroundForAllPages.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: scroll;
+}
+
+.Tour .mainContent img {
+  width: 40%;
 }
 
 /* Shop */
@@ -152,6 +167,11 @@ body {
   background-image: url(../images/backgroundForAllPages.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: scroll;
+}
+
+.Shop .mainContent img {
+  width: 40%;
 }
 
 /* Sign Up */
@@ -159,4 +179,9 @@ body {
   background-image: url(../images/backgroundForAllPages.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: scroll;
+}
+
+.SignUp .mainContent img {
+  width: 40%;
 }
