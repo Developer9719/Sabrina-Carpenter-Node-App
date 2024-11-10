@@ -4,16 +4,34 @@ html {
   padding: 0;
 }
 
-.TOCButton {
+.topNav .column {
+  float: left;
+  text-align: right;
   background-color: rgba(77, 70, 66, 1);
-  width: 190px;
+  padding: 5px;
 }
 
-.TOCButton a {
-  padding: 5px 10px;
-  color: white;
+/* Clear floats after the columns */
+.topNav .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.topNav a {
+  color: rgba(255, 255, 255, 255);
   text-decoration-line: none;
-  margin-right: auto;
+  margin-right: 15px;
+}
+
+.toc {
+  margin-right: 725px;
+}
+
+.mainContent {
+  margin-left: 325px;
+  margin-top: 400px;
+  width: 725px;
 }
 
 /* TOC */
@@ -79,6 +97,33 @@ body {
   background-image: url(../images/backgroundForAllPages.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: scroll;
+}
+
+.Home .mainContent h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+.Home .mainContent .column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.Home .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.Home .mainContent img {
+  width: 75%;
+}
+
+.Home .mainContent p {
+  font-size: 30px;
+  text-align: center;
 }
 
 /* Music */
