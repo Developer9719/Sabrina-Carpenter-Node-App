@@ -4,6 +4,18 @@ html {
   padding: 0;
 }
 
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .topNav .column {
   float: left;
   text-align: right;
@@ -136,6 +148,10 @@ body {
 
 .Music .mainContent img {
   width: 40%;
+}
+
+.Music img {
+  width: 90%;
 }
 
 /* Video */
